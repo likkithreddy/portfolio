@@ -747,7 +747,7 @@ form .result{
     animation-range-start: 0;
     animation-range-end: 400px;
     }
-        .project:nth-child(2) {
+     .project:nth-child(3) {
         animation: fade-left linear;
         animation-duration: 4s;
         animation-timeline: view();
