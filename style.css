@@ -202,7 +202,7 @@ pre {
 .about-img img {
     height: 350px;
     border-radius: 10px;
-    margin-right: 5rem;
+    
     animation: fade-left linear;
     animation-duration: 4s;
     animation-timeline: view();
