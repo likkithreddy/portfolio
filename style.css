@@ -746,6 +746,34 @@ form .result{
     animation-timeline: view();
     animation-range-start: 0;
     animation-range-end: 400px;
-}
+    }
+        .project:nth-child(2) {
+        animation: fade-left linear;
+        animation-duration: 4s;
+        animation-timeline: view();
+        animation-range-start: 0;
+        animation-range-end: 400px;
+    }
+    .text-animation {
+        font-size: 2rem;
+    }
+    .contactme-icons h4 {
+        color: cyan;
+    
+    }
+    
+    .icons {
+        font-size: 1rem;
+        color: gold;
+    }
+    
+    .text {
+        font-size: 0.75rem;
+        padding-left: 1rem;
+    }
+    .home-image img{
+        height: 275px;
+        width: 275px;
+    }
     
 }
