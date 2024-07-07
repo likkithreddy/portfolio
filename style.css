@@ -740,5 +740,12 @@ form .result{
         margin: 1rem;
         cursor: pointer;
     }
+    .project:nth-child(2) {
+    animation: fade-left linear;
+    animation-duration: 4s;
+    animation-timeline: view();
+    animation-range-start: 0;
+    animation-range-end: 400px;
+}
     
 }
