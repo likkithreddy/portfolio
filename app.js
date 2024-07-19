@@ -1,6 +1,19 @@
 let slides = document.querySelectorAll(".slide");
 let prev = document.querySelector(".prev")
 let next = document.querySelector(".next")
+let menuicon = document.querySelector(".menu-icon");
+let crossicon = document.querySelector(".cross-icon");
+
+
+
+let navlinks = document.querySelectorAll(".nav-links");
+console.log(navlinks);
+
+navlinks.forEach((link)=>{
+    link.addEventListener("click",()=>{
+        document.querySelector(".navbar").style.right = "-100%";
+    })
+})
 
 
 let counter = 0;
@@ -44,15 +57,13 @@ const slideimage = () => {
 
 }
 
-let menuicon = document.querySelector(".menu-icon");
 
 
 menuicon.addEventListener("click",()=>{
     document.querySelector(".navbar").style.right = 0;
-    menuicon.style.display = "none";
+    // menuicon.style.display = "none";
 
 })
-let crossicon = document.querySelector(".cross-icon");
 
 crossicon.addEventListener("click",()=>{
     document.querySelector(".navbar").style.right = "-100%";
@@ -60,6 +71,9 @@ crossicon.addEventListener("click",()=>{
 
 
 })
+
+
+
 
 
 
